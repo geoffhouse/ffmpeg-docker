@@ -25,7 +25,8 @@ If you want to contribute to this project or you'd like some of the above featur
 
 1. Clone the repository `git clone https://github.com/ryanmccartney/ffmpeg-docker`
 2. Change directory to the repository `cd ./ffmpeg-docker`
-3. Build the image using `docker compose build`.
+3. Install the npm packages locally (as it's mounted into the container) `npm i`
+4. Build the image using `docker compose build`.
 
 ### With Decklink Support
 
